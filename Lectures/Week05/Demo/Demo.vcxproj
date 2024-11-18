@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{525204a7-ba3d-47c1-99e8-76fdf96ebd99}</ProjectGuid>
-    <RootNamespace>Demmo</RootNamespace>
+    <ProjectGuid>{49791747-a7eb-4e70-814e-82380fce253f}</ProjectGuid>
+    <RootNamespace>Demo</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Demmo.cpp" />
+    <ClCompile Include="ArrayStack.cpp" />
+    <ClCompile Include="Demo.cpp" />
+    <ClCompile Include="LinkedStack.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArrayStack.h" />
+    <ClInclude Include="LinkedStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
